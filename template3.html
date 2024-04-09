@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="template.css">
+    <title>State News</title>
+</head>
+<body>
+    <h1>Education News</h1>
+    <table border="1">
+        <tbody>
+            <!-- Iterate through each news article -->
+            {% for article in articles %}
+            <tr>
+                <!-- Display the headline in a single cell spanning two columns -->
+                <td colspan="2"><b>{{ article.headline }}</b></td>
+            </tr>
+            <tr>
+                <!-- Display the summary in a single cell spanning two columns -->
+                <td colspan="2">{{ article.summary }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

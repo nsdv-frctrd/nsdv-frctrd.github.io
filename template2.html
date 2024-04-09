@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="template.css">
+    <title>state news</title>
+</head>
+<body>
+    <h1>Education News</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Headlines</th>
+    
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Iterate through each news article -->
+            {% for article in articles %}
+            <tr>
+                <!-- Display the title and link for each article -->
+                <td>{{ article.headline }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

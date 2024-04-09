@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+/* Global reset for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif; /* Setting the default font family to 'Poppins' */
+}
+body {
+    display: flex;
+}
+
+/* Left Frame Styles */
+.left-frame {
+    flex: 1;
+    padding: 20px;
+}
+
+.left-frame h2 {
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+/* Right Frame Styles */
+.right-frame {
+    margin-top: 0px;
+    flex: 1;
+    padding: 20px;
+}
+
+/* Navigation Styles */
+nav {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.navi ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navi ul li {
+    display: inline-block;
+    tab-size: 16;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.navi ul li:hover {
+    background-color: #ddd;
+}
+
+.g_name :hover{
+    color: black;
+    border-radius: 15px;
+    background-color: #ddd;
+    
+}
+.t_name :hover{
+    color: black;
+    border-radius: 15px;
+    background-color: #ddd;
+    
+}
+.d_name :hover{
+    color: black;
+    border-radius: 15px;
+    background-color: #ddd;
+    
+}
+
+.guide{
+  text-align: center;
+  color: white;
+  background-image: url("https://www.akamai.com/site/im-demo/perceptual-standard.jpg?imbypass=true");
+  border-radius: 20px;
+}
+
+.team {
+    text-align: center;
+    color: white;
+    background-image: url("https://www.akamai.com/site/im-demo/perceptual-standard.jpg?imbypass=true");
+    border-radius: 20px;
+  }
+
+.doc {
+    text-align: center;
+    color: white;
+    background-image: url("https://www.akamai.com/site/im-demo/perceptual-standard.jpg?imbypass=true");
+    border-radius: 20px;
+ }
+
+.doc a{
+    color: white;
+    text-decoration: none;
+}
+
+.p {
+  vertical-align: sub;
+}
+
+.w_text{
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    display: inline-flex;
+    tab-size: 16;
+    cursor: pointer;
+    padding: 10px;
+    background-color: black;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.w_text:hover {
+    background-color: cornflowerblue;
+}
+
+.w_text a{
+    color: white;
+    text-decoration: none;
+}
