@@ -1,5 +1,5 @@
 # nsdv-frctrd.github.io
- Minor Project - India NewsMap
+ Minor Project - India NewsMap @ https://nsdv-frctrd.github.io/
 
  This project tackles a time-consuming challenge faced by Indian government exam aspirants like UPSC CSE and State PSC exams: sifting through news articles to extract state-specific information. Current news APIs often lack state-level focus, and traditional methods involve laborious manual searches across articles and physical resources.
 
